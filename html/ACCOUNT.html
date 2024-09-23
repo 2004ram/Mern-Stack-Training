@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Create an account</h1>
+            <p>It's free and always will be.</p>
+        </div>
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Surname" required>
+            </div>
+            <input type="text" placeholder="Mobile number or email" required>
+            <input type="password" placeholder="New password" required>
+            <div class="input-group">
+                <label>Birthday</label>
+                <div class="birthdate">
+                    <input type="text" placeholder="Day" required>
+                    <input type="text" placeholder="Month" required>
+                    <input type="text" placeholder="Year" required>
+                </div>
+            </div>
+            <div class="gender">
+                <label>
+                    <input type="radio" name="gender" value="female" required> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                </label>
+            </div>
+            <button type="submit" class="btn">Create an account</button>
+        </form>
+    </div>
+</body>
+</html>

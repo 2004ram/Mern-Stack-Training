@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create web account</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(225, 225, 225);
+        }
+        .header {
+            position:fixed;
+            top: 0;
+            width:100%;
+            background-color: aqua; 
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: space-between;
+            justify-content: right;
+            z-index: 1000;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="login">
+            <input type="text" placeholder="email or phone" requeried>
+            <input type="password" placeholder="password"  required>        
+            <button typpe="submit" >login</button>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="create account">
+            <h2>CREATE AN ACCOUNT </h2>
+            <h3>its free and always be.</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Surname" required>
+            <br><br>
+            <input type="text" placeholder="nuber or email" required>
+            <br><br>
+            <input type="password" placeholder="New Passward"  required>
+            <br><br>
+            <label for="birthday">Birthday</label> 
+            <br><br>
+            <input type="date" id="birthday" required>
+            <br><br>
+            <div class="gender">
+                <label><input type="radio" name="male" required>Male</label>
+                <label><input type="radio" name="female" required>FEMALE</label>
+            </div>
+            <br><br>
+            <button type="submit">Create An Account</button>
+
+
+        </div>
+    </div>
+</body>
+</html>
